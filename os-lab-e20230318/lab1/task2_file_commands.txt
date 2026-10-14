@@ -1,0 +1,4 @@
+/home/gic-khim-vyseyha/oslab-work/lab1/task2_files
+bridge_renamed.txt
+cp-forest
+river.txt
