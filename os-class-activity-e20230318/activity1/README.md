@@ -10,15 +10,15 @@
 
 Screenshot of running `hello_syscall.c` on Linux:
 
-![Hello syscall](screenshots/hello_syscall.png)
+![Hello syscall](/activity1/screenshorts/Hello_Syscall.png)
 
 Screenshot of running `hello_winapi.c` on Windows (CMD/PowerShell/VS Code):
 
-![Hello WinAPI](screenshots/hello_winapi.png)
+![Hello WinAPI](/activity1/screenshorts/hello_winapi.png)
 
 Screenshot of running `copyfilesyscall.c` on Linux:
 
-![Copy file syscall](screenshots/copyfilesyscall.png)
+![Copy file syscall](/activity1/screenshorts/copyfilesyscall.png)
 
 ---
 
@@ -31,12 +31,12 @@ Screenshot of running `copyfilesyscall.c` on Linux:
 **Version A — Library Functions (`file_creator_lib.c`):**
 
 <!-- Screenshot: gcc -o file_creator_lib file_creator_lib.c && ./file_creator_lib && cat output.txt -->
-![Task 1A - Library](screenshots/task1_creator_lib.png)
+![Task 1A - Library](/activity1/screenshorts/file_creator_lib.png)
 
 **Version B — POSIX System Calls (`file_creator_sys.c`):**
 
 <!-- Screenshot: gcc -o file_creator_sys file_creator_sys.c && ./file_creator_sys && cat output.txt -->
-![Task 1A - Syscall](screenshots/task1_creator_sys.png)
+![Task 1A - Syscall](/activity1/screenshorts/file_ccreator_sys.png)
 
 **Questions:**
 
@@ -70,11 +70,11 @@ Screenshot of running `copyfilesyscall.c` on Linux:
 
 **Version A — Library Functions (`file_reader_lib.c`):**
 
-![Task 1B - Library](screenshots/task1_reader_lib.png)
+![Task 1B - Library](/activity1/screenshorts/task1_reader_lib.png)
 
 **Version B — POSIX System Calls (`file_reader_sys.c`):**
 
-![Task 1B - Syscall](screenshots/task1_reader_sys.png)
+![Task 1B - Syscall](/activity1/screenshorts/task1_reader_sys.png)
 
 **Questions:**
 
@@ -95,11 +95,11 @@ Screenshot of running `copyfilesyscall.c` on Linux:
 
 ### Version A — Library Functions (`dir_list_lib.c`)
 
-![Task 2 - Version A](screenshots/task2_lib.png)
+![Task 2 - Version A](/activity1/screenshorts/task2_lib.png)
 
 ### Version B — System Calls (`dir_list_sys.c`)
 
-![Task 2 - Version B](screenshots/task2_sys.png)
+![Task 2 - Version B](/activity1/screenshorts/task2_sys.png)
 
 ### Questions
 
@@ -121,7 +121,7 @@ Screenshot of running `copyfilesyscall.c` on Linux:
 
 Screenshot of running on Windows:
 
-![Task 1 - Windows](screenshots/task1_win.png)
+![Task 1 - Windows]()
 
 ### Bonus Questions
 
@@ -147,27 +147,27 @@ Screenshot of running on Windows:
 
 <!-- Screenshot: strace -e trace=openat,read,write,close ./file_creator_lib -->
 <!-- IMPORTANT: Highlight/annotate the key system calls in your screenshot -->
-![strace - Library version File Creator](screenshots/strace_lib_creator.png)
+![strace - Library version File Creator](/activity1/screenshorts/strace_lib_creator.png)
 
 ### strace Output — System Call Version (File Creator)
 
 <!-- Screenshot: strace -e trace=openat,read,write,close ./file_creator_sys -->
 <!-- IMPORTANT: Highlight/annotate the key system calls in your screenshot -->
-![strace - System call version File Creator](screenshots/strace_sys_creator.png)
+![strace - System call version File Creator](/activity1/screenshorts/strace_sys_creator.png)
 
 ### strace Output — Library Version (File Reader or Dir Listing)
 
-![strace - Library version](screenshots/strace_lib_reader.png)
+![strace - Library version](/activity1/screenshorts/strace_lib_reader.png)
 
 ### strace Output — System Call Version (File Reader or Dir Listing)
 
-![strace - System call version](screenshots/strace_sys_reader.png)
+![strace - System call version](/activity1/screenshorts/strace_sys_creator.png)
 
 ### strace -c Summary Comparison
 
 <!-- Screenshot of `strace -c` output for both versions -->
-![strace summary - Library](screenshots/strace_summary_lib.png)
-![strace summary - Syscall](screenshots/strace_summary_sys.png)
+![strace summary - Library](/activity1/screenshorts/strace_summary_lib.png)
+![strace summary - Syscall](/activity1/screenshorts/strace_summary_sys.png)
 
 ### Questions
 
@@ -195,25 +195,25 @@ Screenshot of running on Windows:
 
 > 📸 Screenshot of `uname -a`, `/proc/cpuinfo`, `/proc/meminfo`, `/proc/version`, `/proc/uptime`:
 
-![System Info](screenshots/task4_system_info.png)
+![System Info](/activity1/screenshorts/task4_system_info.png)
 
 ### Process Information
 
 > 📸 Screenshot of `/proc/self/status`, `/proc/self/maps`, `ps aux`:
 
-![Process Info](screenshots/task4_process_info.png)
+![Process Info](/activity1/screenshorts/task4_process_info.png)
 
 ### Kernel Modules
 
 > 📸 Screenshot of `lsmod` and `modinfo`:
 
-![Kernel Modules](screenshots/task4_modules.png)
+![Kernel Modules](/activity1/screenshorts/task4_modules.png)
 
 ### OS Layers Diagram
 
 > 📸 Your diagram of the OS layers, labeled with real data from your system:
 
-![OS Layers Diagram](screenshots/task4_os_layers_diagram.png)
+![OS Layers Diagram](/activity1/screenshorts/task4_os_layers_diagram.png)
 
 ### Questions
 
