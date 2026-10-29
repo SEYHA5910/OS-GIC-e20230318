@@ -1,0 +1,5 @@
+1. Why does the command fail if you put quotes around *.txt?
+If you put quotes around "*.txt", the shell does not expand the wildcard. Instead, it looks for a single file literally named "*.txt", which does not exist, causing the command to fail.
+
+2. Does your command copy reports/.hidden.txt? Why?
+No, the command does not copy the hidden file. In Linux, wildcards like * do not match files that start with a dot (hidden files) by default.
