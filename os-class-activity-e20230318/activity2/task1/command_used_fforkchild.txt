@@ -1,0 +1,20 @@
+  212  git push
+  213  ssh gic-khim-vyseyha@ssh2.rathpisey.site
+  214  git status
+  215  git add .
+  216  git commit -m "Last"
+  217  git push
+  218  git push --f
+  219  git push
+  220  ls
+  221  cd OS-GIC-e20230318
+  222  cd os-gic-e20230318
+  223  ls
+  224  cd os-class-activity-e20230318
+  225  cd activity2
+  226  cd task1
+  227  ps -ef --forest | grep forkchild
+  228  pstree -p $(pgrep -o forkchild)
+  229  top
+  230  htop
+  231  history | tail -n 20 > command_used_fforkchild.txt

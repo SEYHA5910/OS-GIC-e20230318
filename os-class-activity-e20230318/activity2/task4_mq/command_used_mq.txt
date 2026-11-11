@@ -1,0 +1,20 @@
+  259  gcc -o shm-producer shm-producer.c -lrt
+  260  gcc -o shm-consumer shm-consumer.c -lrt
+  261  ./shm-producer
+  262  ./shm-consumer > result-shm-ipc.txt
+  263  cat result-shm-ipc.txt
+  264  history | tail -n 20 > command_used_shm.txt
+  265  cd ..
+  266  tree
+  267  cd task4_mq
+  268  touch common.h
+  269  touch sender.c receiver.c 
+  270  ls
+  271  gcc -o sender sender.c -lrt
+  272  gcc -o receiver receiver.c lrt
+  273  gcc -o receiver receiver.c -lrt
+  274  ./sender
+  275  ./receiver > result-mq-ipc.txt
+  276  cat result-mq-ips.txt
+  277  cat result-mq-ipc.txt
+  278  history | tail -n 20 > command_used_mq.txt

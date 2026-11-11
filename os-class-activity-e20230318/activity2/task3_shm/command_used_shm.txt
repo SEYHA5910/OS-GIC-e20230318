@@ -1,0 +1,20 @@
+  245  cd task1
+  246  gcc -o forkchild forkchild.c
+  247  ./forkchild > result_forkchild.txt 2>&1
+  248  cat result_forkchild.txt
+  249  ./forkchild > result_forkchild.txt 2>&1
+  250  cd ../task2
+  251  gcc -o winprocess winprocess.c
+  252  ls
+  253  gcc -o winprocess winprocess.c
+  254  cd ../task3_shm
+  255  touch shm-producer.c
+  256  touch shm-consumer.c
+  257  gcc -o shm-producer shm-producer.c
+  258  gcc -o shm-consumer shm-comsumer.c
+  259  gcc -o shm-producer shm-producer.c -lrt
+  260  gcc -o shm-consumer shm-consumer.c -lrt
+  261  ./shm-producer
+  262  ./shm-consumer > result-shm-ipc.txt
+  263  cat result-shm-ipc.txt
+  264  history | tail -n 20 > command_used_shm.txt

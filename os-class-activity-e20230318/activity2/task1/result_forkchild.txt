@@ -1,0 +1,10 @@
+total 32
+drwxr-xr-x 2 khim_vyseyha khim_vyseyha  4096 Nov 11 12:31 .
+drwxr-xr-x 8 khim_vyseyha khim_vyseyha  4096 Nov 11 12:23 ..
+-rwxr-xr-x 1 khim_vyseyha khim_vyseyha 16392 Nov 11 12:31 forkchild
+-rw-r--r-- 1 khim_vyseyha khim_vyseyha  1483 Nov 11 12:29 forkchild.c
+-rw-r--r-- 1 khim_vyseyha khim_vyseyha     0 Nov 11 12:35 result_forkchild.txt
+Parent process (PID: 1338) — creating child...
+Parent: waiting for child (PID: 1339) to finish...
+Parent: child exited with status 0
+Parent: done.
