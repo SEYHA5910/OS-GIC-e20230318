@@ -1,0 +1,10 @@
+mv "$file1" ../reports/
+mv "$OSLAB_WORKSPACE/lab2/incoming/$file2" "$OSLAB_WORKSPACE/lab2/reports/"
+cp "reports/$file1" "reports/$file2" "TechCorp/$owner/"
+cp "reports/$file1" "TechCorp/$owner/archive/first-original.txt"
+cat "../$owner/$file1"
+cat "$OSLAB_WORKSPACE/lab2/TechCorp/$owner/$file1"
+I used relative paths for Step 3. Relative paths are better when working nearby in the same folder tree because they are shorter to type. Absolute paths are better for automated scripts or when working from a completely different folder.
+Error: cat: 'reports/vendor list.txt': No such file or directory
+Fix: ../../reports/vendor list.txt
+
