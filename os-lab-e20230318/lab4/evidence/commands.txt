@@ -1,0 +1,5 @@
+grep '^done,' data/events.csv > evidence/selected.txt
+cut -d, -f2 < evidence/selected.txt > evidence/fields.txt
+wc -l < evidence/selected.txt > evidence/normal.txt
+cat missing.csv > evidence/stdout.txt 2> evidence/stderr.txt
+echo $? > evidence/status.txt
