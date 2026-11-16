@@ -1,0 +1,28 @@
+khim_vy+    8257     341    8257  0    5 23:29 pts/0    00:00:00 ./threads_observe
+khim_vy+    8257     341    8259  0    5 23:29 pts/0    00:00:00 ./threads_observe
+khim_vy+    8257     341    8260  0    5 23:29 pts/0    00:00:00 ./threads_observe
+khim_vy+    8257     341    8261  0    5 23:29 pts/0    00:00:00 ./threads_observe
+khim_vy+    8257     341    8262  0    5 23:29 pts/0    00:00:00 ./threads_observe
+khim_vy+    8282     341    8282  0    1 23:29 pts/0    00:00:00 grep --color=auto threads_observe
+    PID    SPID TTY          TIME CMD
+   8257    8257 pts/0    00:00:00 threads_observe
+   8257    8259 pts/0    00:00:00 threads_observe
+   8257    8260 pts/0    00:00:00 threads_observe
+   8257    8261 pts/0    00:00:00 threads_observe
+   8257    8262 pts/0    00:00:00 threads_observe
+--- /proc/8257/task/ listing ---
+8257
+8259
+8260
+8261
+8262
+--- ps -L output ---
+    PID     LWP NLWP PSR STAT COMMAND
+--- kernel threads ---
+    PID    PPID PSR COMMAND
+      3       2   2 init-watcher
+      7       2   4 init
+    339       2  11 SessionLeader
+    342       2   5 login
+    986       2   4 SessionLeader
+   1102       2   3 SessionLeader

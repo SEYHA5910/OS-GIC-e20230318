@@ -1,0 +1,30 @@
+  358  touch threads.c
+  359  touch threads_mutex.c
+  360  gcc -o threads threads.c -pthread
+  361  ./threads > result_threads.txt 2>&1
+  362  cat result_thresads.txt
+  363  cat result_threads.txt
+  364  ./threads > result_threads.txt 2>&1
+  365  cat result_threads.txt
+  366  ./threads > result_threads.txt 2>&1
+  367  cat result_threads.txt
+  368  gcc -o threads_mutex threads_mutex.c -pthread
+  369  ./treads_mutex > result_threads_mutex.txt 2>&1
+  370  cat result_threads_mutex.txt
+  371  ./threads_mutex > result_threads_mutex.txt 2>&1
+  372  cat result_threads_mutex.txt
+  373  history | tail -n 20 > command_used_threads.txt
+  374  cd ../task3_java
+  375  touch ThreadDemo.java
+  376  touch RunnableDemo.java
+  377  touch PoolDemo.java
+  378  javac ThreadDemo.java
+  379  java ThreadDemo > result_thread_demo.txt 2>&1
+  380  cat result_thread_demo.txt
+  381  javac RunnableDemo.java
+  382  java RunnableDemo > result_runnable_demo.txt 2>&1
+  383  cat result_runnable_demo.txt
+  384  javac PoolDemo.java
+  385  java PoolDemo > result_pool_demo.txt 2>&1
+  386  cat result_pool_demo.txt
+  387  history | tail -n 30 > command_used_java.txt
