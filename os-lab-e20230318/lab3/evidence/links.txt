@@ -1,0 +1,25 @@
+
+=== BEFORE RENAME ===
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-hard.txt
+19409047 lrwxrwxrwx 1 gic-khim-vyseyha gic-khim-vyseyha 10 Nov 20 13:27 silver-soft.txt -> silver.txt
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver.txt
+hard: version 894
+soft: version 894
+stored target: silver.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-hard.txt
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-old.txt
+19409047 lrwxrwxrwx 1 gic-khim-vyseyha gic-khim-vyseyha 10 Nov 20 13:27 silver-soft.txt -> silver.txt
+hard: version 894
+stored target: silver.txt
+soft: cat: silver-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-hard.txt
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-old.txt
+19409047 lrwxrwxrwx 1 gic-khim-vyseyha gic-khim-vyseyha 14 Nov 20 13:28 silver-soft.txt -> silver-old.txt
+stored target: silver-old.txt
+hard: version 894
+soft: version 894
+Decision: I stored a relative target because Linux resolves it from the folder holding the link (links/). If it stored an absolute path and the whole folder were moved, the link would break.

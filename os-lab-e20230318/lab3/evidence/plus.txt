@@ -1,0 +1,1 @@
+I expected the second pattern to only match silver2.txt, but it also matched silver.log because the dot (.) is a character that is not 1.

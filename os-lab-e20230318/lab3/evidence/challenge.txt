@@ -1,0 +1,2 @@
+- After each rm, the link count of the remaining names drops by 1 (from 3 to 2, then from 2 to 1).
+- No, the data is not gone after deleting one.txt. It is only permanently gone when all names pointing to the inode are removed and the link count reaches 0.

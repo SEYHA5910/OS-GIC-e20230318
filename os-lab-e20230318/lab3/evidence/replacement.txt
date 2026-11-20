@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-hard.txt
+19409033 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:09 silver-old.txt
+19409047 lrwxrwxrwx 1 gic-khim-vyseyha gic-khim-vyseyha 10 Nov 20 13:27 silver-soft.txt -> silver.txt
+19409049 -rw-rw-r-- 1 gic-khim-vyseyha gic-khim-vyseyha 12 Nov 20 13:28 silver.txt
+silver.txt: version 908
+hard: version 894
+soft: version 908

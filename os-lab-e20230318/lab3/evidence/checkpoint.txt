@@ -1,0 +1,8 @@
+19409058 lrwxrwxrwx 1 gic-khim-vyseyha gic-khim-vyseyha 20 Nov 20 14:08 cp-pencil/links/first.txt -> ../rocket-backup.txt
+19409057 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 25 Nov 20 14:08 cp-pencil/links/hard.txt
+19409059 lrwxrwxrwx 1 gic-khim-vyseyha gic-khim-vyseyha  9 Nov 20 14:08 cp-pencil/links/second.txt -> first.txt
+19409057 -rw-rw-r-- 2 gic-khim-vyseyha gic-khim-vyseyha 25 Nov 20 14:08 cp-pencil/rocket-backup.txt
+first target: ../rocket-backup.txt
+second target: first.txt
+hard: checkpoint pencil rocket
+second: checkpoint pencil rocket
